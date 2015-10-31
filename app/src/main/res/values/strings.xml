@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">WellsForZoeGpsApp</string>
+    <string name="title_activity_gps_load">Log out</string>
+    <string name="action_settings">Settings</string>
+    <string name="getLocationDescription">Get Location</string>
+    <string name="please_turn_on_gps">Please enable the network location services</string>
+    <string name="add_well">Add Well At Final Location</string>
+    <string name="check_internet">Please check that internet is on</string>
+    <string name="title_activity_detail_dialog">DetailDialog</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="conf_button">Ok</string>
+    <string name="reject_button">Cancel</string>
+    <string name="title_activity_maps">WellsForZoe Well Map</string>
+    <string name="view_map">View Map</string>
+    <string name="heading">\nPress \"Get Location\"  button below to obtain coordinates...</string>
+    <string name="header_login">WellsForZoe GPS Well Mapper</string>
+    <string name="image_comment">well_logo</string>
+    <string name="login_desc">Please add login details below:</string>
+</resources>

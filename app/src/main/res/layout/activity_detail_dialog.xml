@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#ff2d80e8"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.dit.neilguilfoyle.wellsforzoegps.DetailDialog"
+    android:windowSoftInputMode="adjustPan">
+
+        <TextView android:id="@+id/description_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Well information here"
+            android:textColor="#fff"
+            android:textSize="10pt"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1.0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/description_text"
+            >
+            <ScrollView android:id="@+id/signup_fields_view"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".8">
+                <LinearLayout android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <EditText android:id="@+id/extra_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:hint="Description"
+                        android:textColorHint="#fff"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#ffffffff" />
+
+                    <EditText android:id="@+id/extra_village"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:hint="City/Village"
+                        android:textColorHint="#fff"
+                        android:layout_marginTop="3dp"
+                        android:textColor="#ffffffff"
+                        />
+
+                    <EditText android:id="@+id/extra_water_level"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:hint="Water level"
+                        android:textColorHint="#fff"
+                        android:layout_marginTop="3dp"
+                        android:textColor="#ffffffff"
+                        />
+
+                    <EditText android:id="@+id/extra_well_depth"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:hint="Well depth"
+                        android:textColorHint="#fff"
+                        android:layout_marginTop="3dp"
+                        android:textColor="#ffffffff"
+                        />
+
+                    <EditText android:id="@+id/extra_valve_by"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:hint="Valve replaced by"
+                        android:textColorHint="#fff"
+                        android:layout_marginTop="3dp"
+                        android:textColor="#ffffffff"
+                        />
+
+                    <DatePicker android:id="@+id/extra_valve_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:layout_marginTop="3dp"
+                        android:background="#ffffffff" />
+                </LinearLayout>
+            </ScrollView>
+
+            <Button android:id="@+id/add_well_button"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:text="Add new Well to Map"
+                android:textStyle="bold"
+                android:textColor="#ff2d80e8"
+                android:textSize="6pt"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:background="#ffffff"
+                android:clickable="false"
+                android:layout_weight=".1" />
+        </LinearLayout>
+</RelativeLayout>

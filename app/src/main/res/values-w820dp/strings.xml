@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_internet">Please check that internet is on</string>
+    <string name="reject_button">Cancel</string>
+    <string name="view_map">View Map</string>
+    <string name="heading">\nPress \"Get Location\" below to obtain coordinates</string>
+    <string name="header_login">WellsForZoe GPS Well Mapper</string>
+    <string name="image_comment">well_logo</string>
+    <string name="login_desc">Please add login details below:</string>
+</resources>
